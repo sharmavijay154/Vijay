@@ -1,0 +1,30 @@
+student
+Department
+
+Select * from Student stud
+Cross Join Department dept on stud.Id=Dept.Id
+
+with CT(col, col1)
+(
+  Select * from Student stud
+  Join Department dept on stud.Id=Dept.Id
+}
+
+Select * from CT
+
+
+with CT1(col, col1, cl2)
+(
+  Select * from Student stud
+  Join Department dept on stud.Id=Dept.Id
+}
+
+how to optimize entity framework ?
+how to refresh entity framework after changes in the database ?
+how to do logging in .net ?
+how to create custom middleware ?
+what is rate limiting ?
+what is task in azure devops ?
+what can there in place of cursor?
+
+ 
